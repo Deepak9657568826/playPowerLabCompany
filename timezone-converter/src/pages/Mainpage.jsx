@@ -17,16 +17,13 @@ const cityToTimezone = {
 function Mainpage() {
     const { timezones, addTimezone, removeTimezone, reorderTimezones, swapFirstLast } = useTimezones();
     const [currentTime, setCurrentTime] = useState(new Date());
-    const [darkMode, setDarkMode] = useState("white");
+    const [darkMode, setDarkMode] = useState("black");
     const [newCity, setNewCity] = useState('');
     const [message, setMessage] = useState('');
-    
-
-
     useEffect(() => {
         setDarkMode(pre => pre === "white" ? "black" : "white");
     }, []);
- localStorage.setItem("color", darkMode)
+    localStorage.setItem("color", darkMode)
     const toggleDarkMode = () => {
         setDarkMode(pre => pre === "black" ? "white" : "black");
     };
@@ -78,7 +75,7 @@ function Mainpage() {
                             onClick={handleAddTimezone}
                             className='btn border-none p-2 text-white rounded hover:bg-gray-300'
                         >
-                            <img src="https://cdn-icons-png.flaticon.com/128/11696/11696045.png" alt="Add" />
+                            <img src="https://cdn-icons-png.flaticon.com/128/10613/10613702.png" alt="Add" />
                         </button>
                     </div>
 
@@ -94,10 +91,10 @@ function Mainpage() {
                             className='upDownButton btn border-none p-2 text-white rounded hover:bg-gray-300'
                             onClick={swapFirstLast}
                         >
-                            <img src="https://cdn-icons-png.flaticon.com/128/3466/3466264.png" alt="Icon 2" />
+                            <img src="https://cdn-icons-png.flaticon.com/128/9870/9870518.png" alt="Icon 2" />
                         </button>
                         <button className='btn p-2 border-none text-white rounded hover:bg-gray-300'>
-                            <img src="https://cdn-icons-png.flaticon.com/128/282/282100.png" alt="Icon 3" />
+                            <img src="https://cdn-icons-png.flaticon.com/128/3462/3462429.png" alt="Icon 3" />
                         </button>
                         <button
                             className='btn p-2 border-none text-white rounded hover:bg-gray-300'

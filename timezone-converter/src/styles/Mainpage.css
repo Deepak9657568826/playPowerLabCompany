@@ -18,18 +18,9 @@
     display: flex;
     gap: 8px;
     align-items: center;
-    /* border: 2px solid red; */
-    /* background-color: gray; */
 }
 
-/* .Navbar_inner_first {
-    flex-grow: 1;
-}
 
-.Navbar_inner_second,
-.Navbar_inner_third {
-    flex-grow: 1;
-} */
 
 .btn {
     height: 40px;
@@ -37,7 +28,7 @@
     border: 2px solid;
 }
 
-/* Media Queries */
+
 @media (max-width: 768px) {
     .Navbar_inner_first,
     .Navbar_inner_second,
