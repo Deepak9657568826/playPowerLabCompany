@@ -3,7 +3,7 @@ input[type=range] {
     appearance: none;
     width: 100%;
     height: 4px;
-    background: linear-gradient(to right, gray, blue, lightyellow);
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(35, 35, 36), rgb(99, 66, 219)) !important;
     outline: none;
     opacity: 0.7;
     transition: opacity .15s ease-in-out;
@@ -31,7 +31,3 @@ input[type=range] {
     border-radius: 2px; 
   }
 
-  .slider_Component{
-
-  }
-  

@@ -61,7 +61,7 @@ function Mainpage() {
                 <div className='navbarMain mt-4'>
                     <div className='Navbar_inner_first flex items-center gap-2'>
                         <select
-                            className='selectTag p-2 border text-black rounded dark:bg-gray-200 dark:border-gray-200'
+                            className='selectTag p-2 border text-black rounded dark:bg-purple-200 dark:border-gray-200'
                             value={newCity}
                             onChange={(e) => setNewCity(e.target.value)}
                         >
@@ -72,22 +72,22 @@ function Mainpage() {
                         </select>
                         <button
                             onClick={handleAddTimezone}
-                            className='btn border-none p-2 text-white rounded hover:bg-gray-300'
+                            className='btn border-none p-2 text-white rounded hover:bg-pink-200'
                         >
                             <img src="https://cdn-icons-png.flaticon.com/128/10613/10613702.png" alt="Add" />
                         </button>
                     </div>
 
                     <div className='Navbar_inner_second mt-2 md:mt-0'>
-                        <input type="date" className='p-2 text-black border rounded dark:bg-gray-200 dark:border-gray-200' />
+                        <input type="date" className='p-2 text-black border rounded dark:bg-purple-200 dark:border-gray-200' />
                     </div>
 
                     <div className='Navbar_inner_third flex gap-2 mt-2 md:mt-0'>
-                        <button className='btn p-2 border-none text-white rounded hover:bg-gray-300'>
+                        <button className='btn p-2 border-none text-white rounded hover:bg-pink-200'>
                             <img src="https://cdn-icons-png.flaticon.com/128/7955/7955830.png" alt="Icon 1" />
                         </button>
                         <button
-                            className='upDownButton btn border-none p-2 text-white rounded hover:bg-gray-300'
+                            className='upDownButton btn border-none p-2 text-white rounded hover:bg-pink-200'
                             onClick={swapFirstLast}
                         >
                             <img src="https://cdn-icons-png.flaticon.com/128/9870/9870518.png" alt="Icon 2" />

@@ -35,9 +35,7 @@
     width: 45px;
     border: 2px solid;
   }
-  .btn:hover{
-    background-color: rgb(142, 142, 142) !important;
-  }
+ 
   
 
   @media (max-width: 1200px) {

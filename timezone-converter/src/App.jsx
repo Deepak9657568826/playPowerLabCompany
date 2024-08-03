@@ -5,9 +5,9 @@ import Mainpage from './pages/Mainpage';
 
 
 const App = () => {
- 
+
   return (
-    <div  className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-100">
       <Mainpage/>
     </div>
   );
