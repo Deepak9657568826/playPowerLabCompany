@@ -1,0 +1,78 @@
+.timezone_Component {
+    width: 69%;
+    margin: auto;
+  }
+  
+  .time-right {
+    margin-left: auto; 
+  }
+  
+  .navbarMain {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    color: black;
+    box-sizing: border-box;
+    width: 59%;
+    padding:  0px 10px;
+  }
+  
+  .Navbar_inner_first,
+  .Navbar_inner_second,
+  .Navbar_inner_third {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    
+  }
+
+  
+  .btn {
+    height: 45px;
+    width: 45px;
+    border: 2px solid;
+  }
+  .btn:hover{
+    background-color: rgb(142, 142, 142) !important;
+  }
+  
+/* 
+  @media (max-width: 768px) {
+    .Navbar_inner_first,
+    .Navbar_inner_second,
+    .Navbar_inner_third {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .Navbar_inner_first {
+      width: 100%;
+    }
+  
+    .Navbar_inner_second,
+    .Navbar_inner_third {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .Navbar_inner_first,
+    .Navbar_inner_second,
+    .Navbar_inner_third {
+      width: auto;
+    }
+  } */
+  
+  .Main_page_header {
+    width: 59%;
+    margin: auto;
+  }
+  
+  .selectTag {
+    min-width: 200px;
+  }
+  
