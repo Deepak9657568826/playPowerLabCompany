@@ -32,7 +32,6 @@ function Mainpage() {
         try {
             addTimezone(newCity);
             setNewCity('');
-            alert('Timezone added successfully!');
             setTimeout(() => setMessage(''), 3000);
         } catch (error) {
             alert(error.message);

@@ -6,7 +6,7 @@ This application allows users to convert time between different timezones, with 
 
 You can access the deployed application
 
-https://play-power-lab-company.vercel.app
+https://play-power-lab-company-9g5a.vercel.app/
 
 ## Features
 
