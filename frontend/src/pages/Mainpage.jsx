@@ -43,19 +43,6 @@ function Mainpage() {
             <div className='mainHomepage text-gray-900 dark:text-gray-100 p-4'>
                 <div className='Main_page_header'>
                     <h1 style={{ color: (darkMode === "white") ? "black" : "white" }} className='text-2xl font-bold'>UTC to IST Converter</h1>
-                    <hr className='my-4' />
-                    <nav>
-                        <div>
-                            <div style={{ color: (darkMode === "white") ? "black" : "white" }} className='flex gap-7'>
-                                <Link to="/" className='hover:underline'>Converter</Link>
-                                <Link to="/time-difference" className='hover:underline'>Time Difference</Link>
-                                <Link to="/table" className='hover:underline'>Table</Link>
-                                <Link to="/utc" className='hover:underline'>UTC</Link>
-                                <Link to="/ist" className='hover:underline'>IST</Link>
-                            </div>
-                        </div>
-                    </nav>
-                    <hr className='my-4' />
                 </div>
 
                 <div className='navbarMain mt-4'>
